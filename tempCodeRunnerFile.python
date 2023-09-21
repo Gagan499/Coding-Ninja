@@ -1,0 +1,3 @@
+def takeInput():
+    n = int(input().rstrip())
+    print(n)

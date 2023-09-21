@@ -1,0 +1,20 @@
+# Get the number of rows from the user
+n = int(input())
+
+# Initialize an empty string to store the pattern
+pattern = ""
+
+# Loop from n to 1
+for i in range(n, 0, -1):
+  # Loop from 1 to i
+  for j in range(1, i+1):
+    # Append j to the pattern
+    pattern += str(j)
+  # Append a newline character to the pattern
+  pattern += "\n"
+
+# Print the pattern
+print(pattern)
+
+
+#APPEND MEANS  add (something) to the end of a written document:
